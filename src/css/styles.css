@@ -43,3 +43,21 @@ ul {
   margin: 0 0 0 5px;
 }
 /* Country card */
+.contry-thumb {
+  display: flex;
+  align-items: center;
+}
+.country-header {
+  margin: 0 0 0 15px;
+  font-size: 42px;
+}
+
+.country-capital,
+.country-population,
+.country-langs {
+  font-size: 22px;
+}
+
+.country-bold {
+  font-weight: 700;
+}
