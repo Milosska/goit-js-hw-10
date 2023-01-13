@@ -37,9 +37,9 @@ function onInputChange(evt) {
     })
     .catch(err => {
       console.log(err);
-      return Notiflix.Notify.failure(
-        'Oops, there is no country with that name'
-      );
+      Notiflix.Notify.failure('Oops, there is no country with that name');
+      listEl.innerHTML = '';
+      return;
     });
 }
 
